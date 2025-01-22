@@ -9,10 +9,4 @@ document.addEventListener('DOMContentLoaded', () => {
     menuAside.addEventListener('click', () => {
         menuAside.classList.remove('show');
     });
-
-    const form = document.querySelector("form");
-    form.addEventListener("submit", function (event) {
-        event.preventDefault();
-        alert("Form submission prevented.");
-    });
 });
